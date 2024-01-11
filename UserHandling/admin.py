@@ -1,3 +1,5 @@
 from django.contrib import admin
+from UserHandling.models import UserType, UserData
 
-# Register your models here.
+admin.site.register(UserType)
+admin.site.register(UserData)
